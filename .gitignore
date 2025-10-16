@@ -1,0 +1,12 @@
+*.o
+*.out
+*.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
