@@ -32,5 +32,5 @@ Supports **aligned memory**, block splitting, and merging for efficient memory m
 ```bash
 git clone https://github.com/your-username/custom-allocator.git
 cd custom-allocator
-git remote add origin https://github.com/31cmTrueDamage/custom-allocator.git
+gcc start.c my_malloc.c my_calloc.c my_realloc.c helpers.c free.c debug.c -o start
 ./start
